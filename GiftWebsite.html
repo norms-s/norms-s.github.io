@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gift List</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/bd0a8eef41.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <nav class="navbar" style="background-color: steelblue;">
+            <div class="container justify-content-center">
+                <a class="navbar-brand" href="#">
+                    <img src="curated-gifts-logo.svg" alt="Curated Gifts Logo"></a>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row pt-5">
+                <h3 class="col text-left">Store Links</h3>
+            </div>
+        </div>
+
+        <div class="container pt-3">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="amazon-tab" data-bs-toggle="tab" data-bs-target="#amazon-tab-pane" type="button" role="tab" aria-controls="amazon-tab-pane" aria-selected="true">Amazon</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="target-tab" data-bs-toggle="tab" data-bs-target="#target-tab-pane" type="button" role="tab" aria-controls="target-tab-pane" aria-selected="false">Target</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="ae-tab" data-bs-toggle="tab" data-bs-target="#ae-tab-pane" type="button" role="tab" aria-controls="ae-tab-pane" aria-selected="false">American Eagle</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="amazon-tab-pane" role="tabpanel" aria-labelledby="amazon-tab" tabindex="0">
+                    <div class="card text-center">
+                        <div class="card-header" style="background-color: #FF9900"><i class="fa-brands fa-amazon fa-xl"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Shopping Lists</h5>
+                            <p class="card-text">Access to my Amazon wish list and other lists</p>
+                            <div class="row py-3">
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <div class="card-header">
+                                        Wish List
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><a href="https://www.amazon.com/hz/wishlist/ls/2K5EV4Z5ZGGVJ?ref_=wl_share" target="_blank" class="btn" style="background-color: #FF9900;">amazon.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <div class="card-header">
+                                        Book List
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><a href="https://www.amazon.com/hz/wishlist/ls/1UABZWRJBWCI5?ref_=wl_share" target="_blank" class="btn" style="background-color: #FF9900;">amazon.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <div class="card-header">
+                                        Clothes List
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><a href="https://www.amazon.com/hz/wishlist/ls/3Q8LSIW2FO9PK?ref_=wl_share" target="_blank" class="btn" style="background-color: #FF9900;">amazon.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row py-3">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <div class="card-header">
+                                        Travel List
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><a href="https://www.amazon.com/hz/wishlist/ls/38T4KN0DKQO46?ref_=wl_share" target="_blank" class="btn" style="background-color: #FF9900;">amazon.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <div class="card-header">
+                                        Home List
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><a href="https://www.amazon.com/hz/wishlist/ls/BCJ3M59QWL0E?ref_=wl_share" target="_blank" class="btn" style="background-color: #FF9900;">amazon.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="target-tab-pane" role="tabpanel" aria-labelledby="target-tab" tabindex="0">
+                    <div class="card text-center">
+                        <div class="card-header bg-danger"><i class="fa-regular fa-circle-dot fa-xl" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Favorites</h5>
+                          <p class="card-text">Access to my Target favorites list</p>
+                          <a href="https://www.target.com/items/-/ct-84693108Z84693074Z82253412Z87183292Z87707504Z87713425Z83977712Z85701773Z87817752Z88471638Z89190855Z88557477Z81963939Z81963913Z51698164Z82006388Z79581718Z82004597Z80880787Z79855915?ref=web_fav" target="_blank" class="btn btn-danger">target.com</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="ae-tab-pane" role="tabpanel" aria-labelledby="ae-tab" tabindex="0">
+                    <div class="card text-center">
+                        <div class="card-header text-light" style="background-color: #152845;">
+                          American Eagle
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Favorites</h5>
+                          <p class="card-text">Access to my American Eagle favorites</p>
+                          <a href="https://www.ae.com/us/en/favorites/4GiZopVFNUS8kLT--LR24ZRB9LwR7-WhWdxq3NJWZhE" target="_blank" class="btn btn-secondary">ae.com</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row pt-5">
+                <h3 class="col text-left">Must-Haves</h3>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://m.media-amazon.com/images/I/91toAFP-EzL.jpg" 
+                            class="card-img-top object-fit-contain" alt="Star Wars: Princess and the Scoundrel" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Star Wars</h5>
+                            <p class="card-text">The Princess and the Scoundrel</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Type: Hardcover</li>
+                            <li class="list-group-item">Price: $16.50</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.amazon.com/dp/0593498496/?coliid=I1GJFF67Y4C05P&colid=1UABZWRJBWCI5&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" target="_blank">amazon.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://m.media-amazon.com/images/I/71YXb5HeGEL.jpg" 
+                            class="card-img-top object-fit-contain" alt="Shatter Me Book Series" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Shatter Me</h5>
+                            <p class="card-text">6-Book Box Set</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Type: Paperback Box Set</li>
+                            <li class="list-group-item">Price: $32.38</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.amazon.com/dp/0063111357/?coliid=I39RRHWP02UIKN&colid=1UABZWRJBWCI5&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" target="_blank">amazon.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://m.media-amazon.com/images/I/81GcMcJNOBL.jpg" 
+                            class="card-img-top object-fit-contain" alt="Star Wars: Brotherhood" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Star Wars</h5>
+                            <p class="card-text">Brotherhood</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Type: Hardcover</li>
+                            <li class="list-group-item">Price: $15.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.amazon.com/dp/0593358570/?coliid=I3FXBNYPE48ZAS&colid=1UABZWRJBWCI5&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" target="_blank">amazon.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://shop.bareminerals.com/cdn/shop/products/41700523101_BM_C096_Barepro_Pressed_Powder_Foundation_20-_202_mL_WoW_Top-Down_Open_x5a_Fair_10_Warm_bareMinerals_sRGB.jpg?v=1692982535" 
+                            class="card-img-top object-fit-contain" alt="bareMinerals Powder" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">bareMinerals</h5>
+                            <p class="card-text">barePro 16-HR Skin-Perfecting Powder</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Shade: Fair 10 Light</li>
+                            <li class="list-group-item">Size: 0.28 oz.</li>
+                            <li class="list-group-item">Price: $38</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.bareminerals.com/products/barepro-16hr-skin-perfecting-powder-foundation?variant=40493846593621&nosto=categorypage-nosto-2-fallback-nosto-1" target="_blank">bareminerals.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://www.tillys.com/dw/image/v2/BFBK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw619b7f05/tillys/images/catalog/1000x1000/474483249.jpg?sw=1000&sh=1286" 
+                            class="card-img-top object-fit-contain" alt="Hydro Flask Tumbler" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Hydro Flask</h5>
+                            <p class="card-text">All-Around Tubler Surf Artist Series</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Beach Blue</li>
+                            <li class="list-group-item">Size: 20 oz.</li>
+                            <li class="list-group-item">Price: $35.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.tillys.com/product/hydro-flask-ty-williams-20-oz-all-around-tumbler-surf-artist-series---limited-edition/474483249.html?dwvar_474483249_color=249&cgid=brands-hydro-flask" target="_blank">tillys.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://images.vans.com/is/image/Vans/VN0A5FCA_W00_ALT1?wid=1600&hei=1984&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.7,8,0" 
+                            class="card-img-top object-fit-cover" alt="Vans Slip-On" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Vans</h5>
+                            <p class="card-text">Skate Slip-On Shoe</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: True White</li>
+                            <li class="list-group-item">Size: W 7.5</li>
+                            <li class="list-group-item">Price: $60</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.vans.com/en-us/categories/skate-collection-c5420/skate-slip-on-shoe-pvn0a5fcaw00" target="_blank">vans.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row pt-5">
+                <h3 class="col text-left">Miscellaneous</h3>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row py-5 border-bottom">
+                <div class="col-8">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://cdn.media.amplience.net/s/hottopic/13735412_hi?$productMainDesktop$" 
+                                    class="img-fluid rounded-start object-fit-cover" alt="Darth Vader Mini Backpack">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Her Universe</h5>
+                                    <p class="card-text">Star Wars X Heroes & Villains: Darth Vader Pin Collector Mini Backpack</p>
+                                    <p class="card-text">Promo Code: HUE-MXMVZZQRXX7G</p>
+                                </div>
+                                <ul class="list-group list-group-flush border-top">
+                                    <li class="list-group-item">Price: $41.99</li>
+                                </ul>
+                                <div class="card-footer">
+                                    <a class="btn btn-primary card-link" href="https://www.heruniverse.com/product/star-wars-x-heroes-villains-darth-vader-pin-collector-mini-backpack-her-universe-exclusive/13735413.html" target="_blank">heruniverse.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="https://cdna.artstation.com/p/assets/images/images/003/205/438/large/anderson-vieira-banner-starwars.jpg?1471027030"
+                            alt="Star Wars Banner">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://cdn.media.amplience.net/s/hottopic/20168787_hi?$productMainDesktop$&fmt=auto" 
+                            class="card-img-top object-fit-cover" alt="Padme Dress" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Her Universe</h5>
+                            <p class="card-text">Star Wars Padme Pearl Strap Dress</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $63.92</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.heruniverse.com/product/her-universe-star-wars-padme-pearl-strap-dress-her-universe-exclusive/20168787.html" target="_blank">heruniverse.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://m.media-amazon.com/images/I/51-U8++NhNL._AC_SX679_.jpg" 
+                            class="card-img-top object-fit-contain" alt="Anakin Funko POP!" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Funko POP!</h5>
+                            <p class="card-text">Star Wars: Clone Wars Anakin Skywalker</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $14.95</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.amazon.com/Funko-Pop-Star-Wars-Collectible/dp/B07DFBF5VV/ref=pd_bxgy_sccl_2/144-3860398-7920856?pd_rd_w=G6No6&content-id=amzn1.sym.7746dde5-5539-43d2-b75f-28935d70f100&pf_rd_p=7746dde5-5539-43d2-b75f-28935d70f100&pf_rd_r=38PM22VWZ3A4SWFF5CR8&pd_rd_wg=PjzVr&pd_rd_r=5be3e086-6aaf-4f61-896c-82db3e09e29e&pd_rd_i=B07DFBF5VV&psc=1" target="_blank">amazon.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://m.media-amazon.com/images/I/51QBIUvDLYL._AC_SX679_.jpg" 
+                            class="card-img-top object-fit-contain" alt="Princess Leia POP! Keychain" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Funko Pocket POP!</h5>
+                            <p class="card-text">Star Wars Princess Leia POP! Keychain</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $10.87</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.amazon.com/dp/B08RZG71K8/?coliid=ICM9Y6CITGEXD&colid=2K5EV4Z5ZGGVJ&ref_=list_c_wl_lv_ov_lig_dp_it&th=1" target="_blank">amazon.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://m.media-amazon.com/images/I/41B5EhuLGbL._AC_SX679_.jpg" 
+                            class="card-img-top object-fit-contain" alt="Obi-Wan Kenobi Funko POP!" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Funko POP!</h5>
+                            <p class="card-text">Star Wars: Clone Wars Obi-Wan Kenobi</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $14.95</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.amazon.com/dp/B07DFBSH3K/?coliid=I38V9R1PBVT3JK&colid=2K5EV4Z5ZGGVJ&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" target="_blank">amazon.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://www.puravidabracelets.com/cdn/shop/products/38910_GOLDV1-min_1000x1000_crop_center.jpg?v=1673336058" 
+                            class="card-img-top" alt="Sunburst Heart Ring">
+                        <div class="card-body">
+                            <h5 class="card-title">Pura Vida</h5>
+                            <p class="card-text">Sunburst Heart Ring</p>
+                            <p class="card-text">Promo Code: PV15</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: 5</li>
+                            <li class="list-group-item">Price: $40</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.puravidabracelets.com/products/sunburst-heart-ring?variant=40161262927958" target="_blank">puravidabracelets.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://cdn.shopify.com/s/files/1/0297/6313/products/3F9A0360_1000x1000_crop_center.jpg?v=1629434486" 
+                            class="card-img-top" alt="Kindness Bracelet">
+                        <div class="card-body">
+                            <h5 class="card-title">Pura Vida</h5>
+                            <p class="card-text">Spread Kindness Bracelet</p>
+                            <p class="card-text">Promo Code: PV15</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: 5</li>
+                            <li class="list-group-item">Price: $7</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.puravidabracelets.com/products/spread-kindness" target="_blank">puravidabracelets.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://cdn.shopify.com/s/files/1/0297/6313/products/37064_SILVV3_800x800_crop_center.jpg?v=1659649552" 
+                            class="card-img-top" alt="Chevron Stone Ring">
+                        <div class="card-body">
+                            <h5 class="card-title">Pura Vida</h5>
+                            <p class="card-text">Chevron Stone Ring</p>
+                            <p class="card-text">Promo Code: PV15</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: 5</li>
+                            <li class="list-group-item">Price: $20</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.puravidabracelets.com/products/chevron-stone-ring?variant=39982154580054" target="_blank">puravidabracelets.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://www.blanktag.co/cdn/shop/files/TheSmurfetteSticker.png?v=1696978819&width=800" 
+                            class="card-img-top object-fit-cover" alt="Smurfette Sticker" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Blank Tag Co.</h5>
+                            <p class="card-text">The Smurfette Sticker</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $5</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.blanktag.co/products/the-smurfette-sticker" target="_blank">blanktag.co</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://www.blanktag.co/cdn/shop/files/ThePapaSmurfSticker.png?v=1696979004&width=800" 
+                            class="card-img-top object-fit-cover" alt="Papa Smurf Sticker" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Blank Tag Co.</h5>
+                            <p class="card-text">The Papa Smurf Sticker</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $5</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.blanktag.co/products/the-papa-smurf-sticker" target="_blank">blanktag.co</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://www.blanktag.co/cdn/shop/files/TheBrainySmurfSticker.png?v=1696971412&width=800" 
+                            class="card-img-top object-fit-cover" alt="Brainy Smurf Sticker" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Blank Tag Co.</h5>
+                            <p class="card-text">The Brainy Smurf Sticker</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $5</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.blanktag.co/products/the-brainy-smurf-sticker" target="_blank">blanktag.co</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://www.rihoas.com/cdn/shop/products/the-v--neck-long-sleeve-shirt-dress-green-dresses-ojx4si-199215_650x.jpg?v=1698113999" 
+                            class="card-img-top object-fit-contain" alt="Green V-Neck Dress" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Rihoas</h5>
+                            <p class="card-text">V Neck Button Shirt Mini Dress</p>
+                            <p class="card-text">Promo Code: 30DR</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Green</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $36</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.rihoas.com/products/the-green-v-neck-button-shirt-mini-dress?variant=44738557903061&utm_source=facebook&utm_medium=cpm&utm_campaign=1014-2-lep-pe-all-18-44+-+%E5%8A%A8%E6%80%81-top10&campaign_id=23862336630780639&ad_id=23862336630750639" target="_blank">rihoas.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://images.asos-media.com/products/asos-design-knitted-sweater-mini-dress-with-zip-neck-in-charcoal/204577766-1-charcoal?$n_750w$&wid=750&fit=constrain" 
+                            class="card-img-top object-fit-contain" alt="Sweater Dress" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">ASOS Design</h5>
+                            <p class="card-text">Mini Sweater Dress with Zip Neck</p>
+                            <p class="card-text">Promo Code: 3EA6BD07A04B</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Charcoal</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $49.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.asos.com/us/asos-design/asos-design-knitted-sweater-mini-dress-with-zip-neck-in-charcoal/prd/204577776?CTARef=Saved+Items+Image" target="_blank">asos.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://www.rihoas.com/cdn/shop/products/0325_19626-476362_650x.jpg?v=1698114574" 
+                            class="card-img-top object-fit-contain" alt="Black Lace Dress" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Rihoas</h5>
+                            <p class="card-text">V Neck Lace Spliced Midi Dress</p>
+                            <p class="card-text">Promo Code: 30DR</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Black</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $36</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.rihoas.com/collections/midi-dresses/products/the-black-v-neck-lace-spliced-short-sleeve-midi-dress" target="_blank">rihoas.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://dms.deckers.com/ugg/image/upload/f_auto,q_auto,dpr_auto/b_rgb:eeeeee/w_1008/v1663854553/catalog/images/transparent/1016223-BCDR_2.png?_s=RAABAB0" 
+                            class="card-img-top object-fit-cover" alt="UGG Classic Short" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">UGG</h5>
+                            <p class="card-text">Classic Short II Boots</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Burnt Cedar</li>
+                            <li class="list-group-item">Size: W 8</li>
+                            <li class="list-group-item">Price: $180</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.ugg.com/women-boots-classic-boots/classic-short-ii/1016223.html" target="_blank">ugg.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://m.media-amazon.com/images/I/81I1qDXG2DL._AC_UX679_.jpg" 
+                            class="card-img-top object-fit-contain" alt="Nautica Peacoat" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Nautica</h5>
+                            <p class="card-text">3/4 Hooded Peacoat</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Camel</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $129.08</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.amazon.com/dp/B0BBPFX525/?coliid=I1W1YTCVWIYZ7Z&colid=3Q8LSIW2FO9PK&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" target="_blank">amazon.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://dms.deckers.com/ugg/image/upload/f_auto,q_auto,dpr_auto/b_rgb:eeeeee/w_483/v1698787795/catalog/images/transparent/1016501-GREY_1.png?_s=RAABAB0" 
+                            class="card-img-top object-fit-cover" alt="UGG Bailey Bow" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">UGG</h5>
+                            <p class="card-text">Mini Bailey Bow II Boot</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Grey</li>
+                            <li class="list-group-item">Size: W 8</li>
+                            <li class="list-group-item">Price: $170</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.ugg.com/women-boots-classic-boots/mini-bailey-bow-ii-boot/1016501.html" target="_blank">ugg.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://img.hollisterco.com/is/image/anf/KIC_344-3644-0035-111_model4.jpg?policy=product-large" 
+                            class="card-img-top object-fit-cover" alt="All-Weather Jacket" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Hollister</h5>
+                            <p class="card-text">All-Weather Faux Fur-Lined Jacket</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Light Grey</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $99.95</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.hollisterco.com/shop/us/p/all-weather-faux-fur-lined-jacket-54108321?categoryId=12619&faceout=model&seq=01" target="_blank">hollisterco.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://img.hollisterco.com/is/image/anf/KIC_355-3360-6777-975_model2.jpg?policy=product-large" 
+                            class="card-img-top object-fit-contain" alt="Grey Cargo Dad Jeans" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Hollister</h5>
+                            <p class="card-text">Ultra High-Rise Cargo Dad Jeans</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Grey Wash</li>
+                            <li class="list-group-item">Size: 6 Short</li>
+                            <li class="list-group-item">Price: $64.95</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.hollisterco.com/shop/us/p/ultra-high-rise-grey-cargo-dad-jeans-53665859?categoryId=12623&faceout=model&seq=09" target="_blank">hollisterco.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://img.hollisterco.com/is/image/anf/KIC_344-3655-0023-900_model2.jpg?policy=product-large" 
+                            class="card-img-top object-fit-cover" alt="All-Weather Parka" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Hollister</h5>
+                            <p class="card-text">All-Weather Faux Fur-Lined Parka</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Black</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $140</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.hollisterco.com/shop/us/p/all-weather-faux-fur-lined-parka-54108320?categoryId=12619&faceout=model&seq=02" target="_blank">hollisterco.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://images.jansport.com/is/image/JanSport/JS0A7ZOH_7G7_det1?wid=800&hei=888&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0" 
+                            class="card-img-top object-fit-contain" alt="JanSport Backpack" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">JanSport</h5>
+                            <p class="card-text">Lodo Pack Backpack</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Blue Dusk</li>
+                            <li class="list-group-item">Price: $60</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.tillys.com/product/jansport-lodo-pack-backpack/458916221.html?dwvar_458916221_color=221&cgid=accessories-backpacks-laptop" target="_blank">tillys.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-typo/default/dwba9769d1/1684164/1684164-19-2.jpg?sw=768&sh=1152&sm=fit" 
+                            class="card-img-top object-fit-cover" alt="Laptop Stand" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Typo</h5>
+                            <p class="card-text">Collapsible Laptop Stand</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Arctic Blue</li>
+                            <li class="list-group-item">Price: $13.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://cottonon.com/US/collapsible-laptop-stand/1684164-02.html?dwvar_1684164-02_color=1684164-02&cgid=stationery&originalPid=1684164-02#start=28&sz=60" target="_blank">cottonon.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://cdn-fsly.yottaa.net/57f4626c312e584b1a000020/www.tillys.com/v~4b.222.0.0/on/demandware.static/-/Sites-master-catalog/default/dw1c617247/tillys/images/catalog/1000x1000/474482249b.jpg?yocs=y_l_x_" 
+                            class="card-img-top object-fit-contain" alt="Hydro Flask Water Bottle" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Hydro Flask</h5>
+                            <p class="card-text">Wide Mouth Water Bottle</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: 32 oz.</li>
+                            <li class="list-group-item">Price: $51.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.tillys.com/product/hydro-flask-ty-williams-32-oz-wide-mouth-water-bottle-surf-artist-series---limited-edition/474482249.html?dwvar_474482249_color=249&cgid=brands-hydro-flask" target="_blank">tillys.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-12">
+                    <div class="row mb-5">
+                        <img src="https://libg.s3.us-east-2.amazonaws.com/download/Strong-Current-Of-Ocean.jpg" alt="Fruity Banner">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://slimages.macysassets.com/is/image/MCY/products/2/optimized/24656402_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1&fmt=webp" 
+                                    class="img-fluid rounded-start object-fit-cover" alt="Viva La Juicy Perfume">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Juicy Couture</h5>
+                                    <p class="card-text">Viva La Juicy Sucré</p>
+                                    <p class="card-text">Promo Code: FRIEND</p>
+                                </div>
+                                <ul class="list-group list-group-flush border-top">
+                                    <li class="list-group-item">Size: 3.4 oz</li>
+                                    <li class="list-group-item">Price: $97.75</li>
+                                </ul>
+                                <div class="card-footer">
+                                    <a class="btn btn-primary card-link" href="https://www.macys.com/shop/product/juicy-couture-viva-la-juicy-sucre-eau-de-parfum-fragrance-collection?ID=16165180&CategoryID=30087" target="_blank">macys.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://slimages.macysassets.com/is/image/MCY/products/0/optimized/18452550_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1&fmt=webp" 
+                                    class="img-fluid rounded-start object-fit-cover" alt="Juicy Couture Perfume">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Juicy Couture</h5>
+                                    <p class="card-text">Oui Splash Spray</p>
+                                    <p class="card-text">Promo Code: FRIEND</p>
+                                </div>
+                                <ul class="list-group list-group-flush border-top">
+                                    <li class="list-group-item">Size: 3.4 oz</li>
+                                    <li class="list-group-item">Price: $97.75</li>
+                                </ul>
+                                <div class="card-footer">
+                                    <a class="btn btn-primary card-link" href="https://www.macys.com/shop/product/juicy-couture-oui-splash-eau-de-toilette-fragrance-collection?ID=11946627&CategoryID=30087" target="_blank">macys.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://static.zara.net/photos///2023/V/2/1/p/0120/804/999/2/w/563/0120804999_6_1_1.jpg?ts=1679046747330" 
+                            class="card-img-top object-fit-cover" alt="Zara Apple Juice" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Zara</h5>
+                            <p class="card-text">APPLEJUICE Eau De Toilette</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: 3.0 oz</li>
+                            <li class="list-group-item">Price: $19.90</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.zara.com/us/en/applejuice-90-ml--3-0-fl--oz--p20120804.html?v1=309402769&v2=2291643" target="_blank">zara.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://slimages.macysassets.com/is/image/MCY/products/5/optimized/22287165_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1&fmt=webp" 
+                            class="card-img-top object-fit-contain" alt="Burberry Perfume" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Burberry</h5>
+                            <p class="card-text">Her Elixir de Parfum</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: 1.6 oz</li>
+                            <li class="list-group-item">Price: $114.75</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.macys.com/shop/product/burberry-her-elixir-de-parfum-fragrance-collection?ID=14322316&CategoryID=30087" target="_blank">macys.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://static.zara.net/photos///2023/V/2/1/p/0120/830/999/2/w/563/0120830999_6_1_1.jpg?ts=1679046850763" 
+                            class="card-img-top object-fit-cover" alt="Zara Hibiscus" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Zara</h5>
+                            <p class="card-text">HIBISCUS Eau De Parfum</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: 3.0 oz</li>
+                            <li class="list-group-item">Price: $19.90</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.zara.com/us/en/hibiscus-90-ml-p20120830.html?v1=268095250&v2=2291643" target="_blank">zara.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://slimages.macysassets.com/is/image/MCY/products/1/optimized/18492271_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1&fmt=webp" 
+                            class="card-img-top object-fit-contain" alt="Oui Splash Spray" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Juicy Couture</h5>
+                            <p class="card-text">Oui Splash Spray</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: 0.33 oz</li>
+                            <li class="list-group-item">Price: $29</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.macys.com/shop/product/juicy-couture-oui-splash-spray-0.33-oz.?ID=11946629&tdp=cm_app~zMCOM-NAVAPP~xcm_zone~zPDP_ZONE_A~xcm_choiceId~zcidM05MVZ-e92a154d-ec6d-433f-a363-70ba3ed29d73%40HB2%40Customers%2Balso%2Bshopped%2430087%2411946629~xcm_pos~zPos2~xcm_srcCatID~z30087" target="_blank">macys.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://i5.walmartimages.com/seo/DKNY-Be-Delicious-Eue-De-Parfum-Spray-0-34-FL-OZ-10ML-Brand-New-In-Box_c3b9d30b-7b8b-471d-baff-c45ab6383693.cc26a2622d4e59ef3c0ec8747ad304a0.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF" 
+                            class="card-img-top object-fit-contain" alt="Be Delicious Spray" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">DKNY</h5>
+                            <p class="card-text">Be Delicious Eau De Parfum Spray</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: 0.34 oz</li>
+                            <li class="list-group-item">Price: $28</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.walmart.com/ip/DKNY-Be-Delicious-Eue-De-Parfum-Spray-0-34-FL-OZ-10ML-Brand-New-In-Box/661660000?wmlspartner=wlpa&selectedSellerId=101001687&&adid=22222222227661660000_101001687_147377879893_18612778493&wl0&wl1=g&wl2=c&wl3=652791416603&wl4=pla-1972867812170&wl5=9030958&wl6&wl7&wl8&wl9=pla&wl10=127752333&wl11=online&wl12=661660000_101001687&veh=sem" target="_blank">walmart.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://slimages.macysassets.com/is/image/MCY/products/0/optimized/23490450_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1&fmt=webp" 
+                            class="card-img-top object-fit-contain" alt="Burberry Her Spray" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Burberry</h5>
+                            <p class="card-text">Her Eau de Parfum Spray</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: 0.33 oz</li>
+                            <li class="list-group-item">Price: $38</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.macys.com/shop/product/burberry-her-eau-de-parfum-spray-0.33-oz.?ID=15394884" target="_blank">macys.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://res.cloudinary.com/dinun6ruk/image/fetch/f_auto/q_auto:best:444/dpr_2.0/c_scale,w_621/https://cdn.shopify.com/s/files/1/0114/4120/9408/files/SHEERRIPRESIST_CURSTI-S_BLK_03.jpg%3Fv%3D1692807466" 
+                            class="card-img-top object-fit-cover" alt="Sheertex Tights" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Sheertex</h5>
+                            <p class="card-text">Classic Sheer Rip-Resist Tights</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Black</li>
+                            <li class="list-group-item">Size: M</li>
+                            <li class="list-group-item">Price: $30</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://sheertex.com/products/classic-sheer-tights" target="_blank">sheertex.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://images.asos-media.com/products/asos-design-petite-denim-pinafore-dress-in-black/204133779-2?$n_750w$&wid=750&fit=constrain" 
+                            class="card-img-top object-fit-cover" alt="Pinafore Dress" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">ASOS Design</h5>
+                            <p class="card-text">Petite Denim Pinafore Dress</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Black</li>
+                            <li class="list-group-item">Size: US 6</li>
+                            <li class="list-group-item">Price: $44.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.asos.com/us/asos-petite/asos-design-petite-denim-pinafore-dress-in-black/prd/204133788?CTARef=Saved+Items+Image" target="_blank">asos.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://res.cloudinary.com/dinun6ruk/image/fetch/f_auto/q_auto:best:444/dpr_2.0/c_scale,w_621/https://cdn.shopify.com/s/files/1/0114/4120/9408/files/sheerN01.2.jpg%3Fv%3D1699389155" 
+                            class="card-img-top object-fit-cover" alt="Sheertex Tights" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Sheertex</h5>
+                            <p class="card-text">Nude Sheer Rip-Resist Tights</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: N02 Light</li>
+                            <li class="list-group-item">Size: M</li>
+                            <li class="list-group-item">Price: $35</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://sheertex.com/products/nude-classic-sheer-tights" target="_blank">sheertex.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://img.hollisterco.com/is/image/anf/KIC_339-3372-0020-100_model1.jpg?policy=product-large" 
+                            class="card-img-top object-fit-cover" alt="Crew Baby Tee" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Hollister</h5>
+                            <p class="card-text">Crew Baby Tee</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: White</li>
+                            <li class="list-group-item">Size: M</li>
+                            <li class="list-group-item">Price: $14.95</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.hollisterco.com/shop/us/p/crew-baby-tee-53329321?categoryId=120721&faceout=model&seq=05" target="_blank">hollisterco.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://img.hollisterco.com/is/image/anf/KIC_356-3074-0364-131_model2.jpg?policy=product-large" 
+                            class="card-img-top object-fit-contain" alt="Baggy Cargo Pants" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Hollister</h5>
+                            <p class="card-text">Ultra High-Rise Baggy Cargo Pants</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Dark Grey</li>
+                            <li class="list-group-item">Size: 6 Short</li>
+                            <li class="list-group-item">Price: $59.95</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.hollisterco.com/shop/us/p/ultra-high-rise-3-pocket-baggy-cargo-pants-53665873?categoryId=99209&faceout=model&seq=01" target="_blank">hollisterco.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://img.hollisterco.com/is/image/anf/KIC_357-3164-0003-112_model1.jpg?policy=product-large" 
+                            class="card-img-top object-fit-cover" alt="Graphic Baby Tee" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Hollister</h5>
+                            <p class="card-text">Relaxed Long Sleeve Baby Tee</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Light Heather Grey</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $24.95</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.hollisterco.com/shop/us/p/relaxed-long-sleeve-colorado-springs-graphic-baby-tee-53483605?categoryId=120721&faceout=model&seq=02" target="_blank">hollisterco.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://rothys.com/cdn/shop/products/075_SquareMaryJane_Black_G_991fba3c-e4a6-4914-b0c6-87799dd0bc36_650x.jpg?v=1678398045" 
+                            class="card-img-top object-fit-cover" alt="Square Mary Janes" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Rothy's</h5>
+                            <p class="card-text">The Square Mary Jane</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Black</li>
+                            <li class="list-group-item">Size: 7.5</li>
+                            <li class="list-group-item">Price: $159</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://rothys.com/products/the-square-mary-jane-black" target="_blank">rothys.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://rothys.com/cdn/shop/products/006_BrightWhite_pdp_E_F4F2EF_650x.jpg?v=1664321293" 
+                            class="card-img-top object-fit-contain" alt="White Slip-Ons" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Rothy's</h5>
+                            <p class="card-text">The Original Slip On Sneaker</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Bright White</li>
+                            <li class="list-group-item">Size: 7.5</li>
+                            <li class="list-group-item">Price: $119</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://rothys.com/products/the-original-slip-on-sneaker-bright-white" target="_blank">rothys.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://rothys.com/cdn/shop/products/003_Black_pdp_E_F4F2EF_650x.jpg?v=1659037808" 
+                            class="card-img-top object-fit-cover" alt="The Loafer" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Rothy's</h5>
+                            <p class="card-text">The Loafer</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Black Solid</li>
+                            <li class="list-group-item">Size: 7.5</li>
+                            <li class="list-group-item">Price: $169</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://rothys.com/products/the-loafer-black-solid" target="_blank">rothys.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-8">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://target.scene7.com/is/image/Target/GUEST_f92dac5c-3bb9-43f8-87b2-6fa3a488c8d1?wid=1200&hei=1200&qlt=80&fmt=webp" 
+                                    class="img-fluid rounded-start object-fit-cover" alt="Long-Sleeve Ribbed T-Shirt" style="height: 265px;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Universal Thread</h5>
+                                    <p class="card-text">Long Sleeve Ribbed V-Neck T-Shirt</p>
+                                </div>
+                                <ul class="list-group list-group-flush border-top">
+                                    <li class="list-group-item">Color: Dark Brown</li>
+                                    <li class="list-group-item">Size: S</li>
+                                    <li class="list-group-item">Price: $15</li>
+                                </ul>
+                                <div class="card-footer">
+                                    <a class="btn btn-primary card-link" href="https://www.target.com/p/women-s-long-sleeve-ribbed-v-neck-t-shirt-universal-thread/-/A-88870290?preselect=88471753#lnk=sametab" target="_blank">target.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="https://cdn.thewirecutter.com/wp-content/media/2021/05/mensjeans-2048px-4026-2x1-1.jpg?auto=webp&quality=75&crop=1.91:1&width=1200" 
+                            alt="Jeans Banner">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_cf181415-3061-4955-9669-a1f3ff3a4b50?wid=1200&hei=1200&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="Ahsoka Mini Backpack" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">A New Day</h5>
+                            <p class="card-text">Long Sleeve V-Neck T-Shirt</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Lilac Purple</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $12</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.target.com/p/women-s-long-sleeve-v-neck-t-shirt-a-new-day/-/A-88573158?preselect=88541846#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_343f78ec-0d5e-42c2-9606-38f453c6b9df?wid=1200&hei=1200&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="Zip-Up Cardigan" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Universal Thread</h5>
+                            <p class="card-text">Zip-Up Cardigan</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Cream</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $35</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.target.com/p/women-s-zip-up-cardigan-universal-thread/-/A-88119812?preselect=87817753#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_7fca1669-251f-499b-a1c6-b68a0f3f778f?wid=1200&hei=1200&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="V-Neck Short Sleeve T-Shirt" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Universal Thread</h5>
+                            <p class="card-text">Fitted V-Neck Short-Sleeve T-Shirt</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Light Pink</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $10</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.target.com/p/women-s-fitted-v-neck-short-sleeve-t-shirt-universal-thread/-/A-87800442?preselect=88703447#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_1c9d442b-5974-4a62-8c31-be4dfe122b41?wid=1200&hei=1200&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="Cargo Joggers" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">A New Day</h5>
+                            <p class="card-text">Relaxed Fit Super Soft Cargo Joggers</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Black</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $22</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.target.com/p/women-s-relaxed-fit-super-soft-cargo-joggers-a-new-day/-/A-88566396?preselect=88557477#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_69242a31-a618-4a7e-a4cd-fe6a02031767?wid=1200&hei=1200&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="Oblong Scarf" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Universal Thread</h5>
+                            <p class="card-text">Plaid Oblong Scarf</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Gray</li>
+                            <li class="list-group-item">Size: One Size Fits Most</li>
+                            <li class="list-group-item">Price: $17</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.target.com/p/plaid-oblong-scarf-universal-thread/-/A-88666233?preselect=88453370#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_36a3e980-7b22-48b2-a266-e8f27e10f647?wid=1200&hei=1200&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="Long Sleeve Shrunken T-Shirt" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Universal Thread</h5>
+                            <p class="card-text">Long Sleeve Shrunken Rib T-Shirt</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Light Pink</li>
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $15</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.target.com/p/women-s-long-sleeve-shrunken-rib-t-shirt-universal-thread/-/A-88552173?preselect=88471689#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_62f6a3a7-1bef-482e-bbf4-dd5ffaa81679?wid=600&hei=600&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="Knit Beanie" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Universal Thread</h5>
+                            <p class="card-text">Knit Beanie</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Cream</li>
+                            <li class="list-group-item">Size: One Size Fits Most</li>
+                            <li class="list-group-item">Price: $12</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.target.com/p/knit-beanie-universal-thread/-/A-88240420?preselect=88228806#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://bigmoods.com/cdn/shop/products/BM-0001-7372_720x.jpg?v=1690745496" 
+                            class="card-img-top object-fit-cover" alt="Music Sticker" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Big Moods</h5>
+                            <p class="card-text">Shakespeare Sticker</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $3.20</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://bigmoods.com/products/the-earth-has-music-for-those-who-listen-shakespeare" target="_blank">bigmoods.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://bigmoods.com/cdn/shop/products/BM-0001-7375_720x.jpg?v=1690745621" 
+                            class="card-img-top object-fit-cover" alt="Dreams Sticker" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Big Moods</h5>
+                            <p class="card-text">Shakespeare Sticker</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $3.20</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://bigmoods.com/products/we-are-such-stuff-as-dreams-are-made-on-shakespeare" target="_blank">bigmoods.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://bigmoods.com/cdn/shop/products/BM-0001-7373_720x.jpg?v=1690745634" 
+                            class="card-img-top object-fit-cover" alt="To Be Sticker" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Big Moods</h5>
+                            <p class="card-text">Shakespeare Sticker</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $3.20</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://bigmoods.com/products/to-be-or-not-to-be-that-is-the-question-shakespeare" target="_blank">bigmoods.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://umbropremier.com/cdn/shop/files/UUL1ESJS623101_KIT_EL_SALVADOR_F1_copy.jpg?v=1692722920" 
+                            class="card-img-top object-fit-cover" alt="El Salvador Blue Jersey" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Umbro</h5>
+                            <p class="card-text">El Salvador Home Jersey</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $90</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://umbropremier.com/collections/el-salvador/products/2023-el-salvador-wms-home-replica" target="_blank">umbropremier.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/84b6402515d24c159e22af74010f5c31_9366/Sweden_Womens_Team_23_Away_Jersey_Blue_HT7142_21_model.jpg" 
+                            class="card-img-top object-fit-cover" alt="Sweden Jersey" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas</h5>
+                            <p class="card-text">Sweden Away Jersey</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $63</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.adidas.com/us/sweden-womens-team-23-away-jersey/HT7142.html?pr=still_interested&slot=1&forceSelSize=S" target="_blank">adidas.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://umbropremier.com/cdn/shop/files/UUM1ESJS52201_U10_EL_SALVADOR_F1_copy_1d8d1be2-a590-4032-9372-7efd218fc62b.jpg?v=1692723000" 
+                            class="card-img-top object-fit-cover" alt="El Salvador Away Jersey" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Umbro</h5>
+                            <p class="card-text">El Salvador Away Jersey</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Size: S</li>
+                            <li class="list-group-item">Price: $90</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://umbropremier.com/collections/el-salvador/products/2023-el-salvador-wms-away-replica?variant=40916468760624" target="_blank">umbropremier.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://bigmoods.com/cdn/shop/products/BM-0001-6742_720x.jpg?v=1685986200" 
+                            class="card-img-top object-fit-cover" alt="Plants Sticker" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Big Moods</h5>
+                            <p class="card-text">Princess of Plants Sticker</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $3.20</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://bigmoods.com/products/princess-of-plants-tarot-card-sticker" target="_blank">bigmoods.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://bigmoods.com/cdn/shop/products/BM-0001-6741_720x.jpg?v=1685986206" 
+                            class="card-img-top object-fit-cover" alt="Dog Mom Sticker" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Big Moods</h5>
+                            <p class="card-text">The Dog Mom Sticker</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $3.20</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://bigmoods.com/products/the-dog-mom-tarot-card-sticker" target="_blank">bigmoods.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://bigmoods.com/cdn/shop/products/BM-0001-6822_720x.jpg?v=1685986087" 
+                            class="card-img-top object-fit-cover" alt="Book Lover Sticker" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Big Moods</h5>
+                            <p class="card-text">The Book Lover Sticker</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $3.20</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://bigmoods.com/products/the-book-lover-tarot-card-sticker" target="_blank">bigmoods.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row pt-5">
+                <h3 class="col-sm-12 text-left">Fun Games</h3>
+            </div>
+            <div class="row pt-3">
+                <img src="https://i5.walmartimages.com/asr/a70e4efa-107e-43c7-ad96-970687a4d6fd_1.df354ebcf99b58ae4ad343564c77b7e6.jpeg" 
+                    alt="Carnival Banner">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_f7282617-bae4-46fb-9217-cc2f9e82c060?wid=1000&hei=1000&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="SkeeBall" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">SkeeBall</h5>
+                            <p class="card-text">Classic Arcade Game</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $29.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.target.com/p/skeeball-the-classic-arcade-game/-/A-53275985#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_e4ef46c4-587e-4fdd-a984-13ca3ebc7133?wid=1000&hei=1000&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="Millennial Loteria" style="height: 355px;">
+                        <div class="card-body">
+                        <h5 class="card-title">Millennial Loteria</h5>
+                        <p class="card-text">Family Fiesta Edition</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Price: $15.99</li>
+                        </ul>
+                        <div class="card-footer">
+                        <a class="btn btn-primary card-link" href="https://www.target.com/p/millennial-loteria-game-family-fiesta-edition/-/A-82006388#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_8618359d-f4cd-459f-96de-d12a9e384d8e?wid=1000&hei=1000&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="Poetry for Neanderthals" style="height: 355px;">
+                        <div class="card-body">
+                        <h5 class="card-title">Poetry for Neanderthals</h5>
+                        <p class="card-text">Party Card Game</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Price: $19.99</li>
+                        </ul>
+                        <div class="card-footer">
+                        <a class="btn btn-primary card-link" href="https://www.target.com/p/poetry-for-neanderthals-game-by-exploding-kittens/-/A-79396244#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_25c73f7c-ccfc-4603-b626-968add0a766f?wid=1000&hei=1000&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="Happy Little Dinosaurs" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Happy Little Dinosaurs</h5>
+                            <p class="card-text">Card Game</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: $19.89</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.amazon.com/dp/B08QPN6KGH/?coliid=I1E9GCVIU0A2BS&colid=2K5EV4Z5ZGGVJ&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" target="_blank">amazon.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_d86c944e-f500-4967-8810-4bec7d71df86?wid=1000&hei=1000&qlt=80&fmt=webp" 
+                            class="card-img-top" alt="Connect 4" style="height: 355px;">
+                        <div class="card-body">
+                        <h5 class="card-title">Connect 4</h5>
+                        <p class="card-text">4-in-a-Row Game</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Price: $8.99</li>
+                        </ul>
+                        <div class="card-footer">
+                        <a class="btn btn-primary card-link" href="https://www.amazon.com/dp/B00D8STBHY/?coliid=IOASL1XVTXHIW&colid=2K5EV4Z5ZGGVJ&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" target="_blank">amazon.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_bdd598b1-2bc5-4049-8f0b-4ce4d96b9879?wid=1000&hei=1000&qlt=80&fmt=webp" 
+                            class="card-img-top" alt="Wordle" style="height: 355px;">
+                        <div class="card-body">
+                        <h5 class="card-title">Wordle</h5>
+                        <p class="card-text">The Party Game</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Price: $18.59</li>
+                        </ul>
+                        <div class="card-footer">
+                        <a class="btn btn-primary card-link" href="https://www.target.com/p/wordle-the-party-games/-/A-86853278#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row pt-5">
+                <h3 class="col-sm-12 text-left">Travel Essentials</h3>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row py-5 border-bottom">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://cdn.shopify.com/s/files/1/0240/9337/products/jbuds_pro_blue4_914f15c8-4839-4a62-bb0b-b0fb7fb285c2.jpeg?v=1686006713&width=1100" 
+                            class="card-img-top object-fit-cover" alt="JLAB JBuds Pro" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">JLAB</h5>
+                            <p class="card-text">JBuds Pro Wired Earbuds</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Blue</li>
+                            <li class="list-group-item">Price: $10</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.jlab.com/products/jbuds-pro-signature-earbuds?variant=10577840839" target="_blank">jlab.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_0295ebf6-4c55-4ece-a53f-af1c4a6fb929?wid=1000&hei=1000&qlt=80&fmt=webp" 
+                            class="card-img-top object-fit-cover" alt="RFID Travel Wallet" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Open Story</h5>
+                            <p class="card-text">RFID Blocking Travel Wallet</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Puritan Gray</li>
+                            <li class="list-group-item">Price: $17.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.target.com/p/rfid-blocking-passport-and-visa-holder-travel-wallet-open-story/-/A-88289995?preselect=86391356#lnk=sametab" target="_blank">target.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://cdn.shopify.com/s/files/1/2237/5935/files/Quart_Pink_LS_BathToiletries_v2_2800_c2fb92dc-c63b-4817-9fc5-af1bfe55b99b.jpg?v=1684366113" 
+                            class="card-img-top object-fit-cover" alt="Stasher Quart Bag" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Stasher</h5>
+                            <p class="card-text">Silicone Quart-Size Storage Bag</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Pink</li>
+                            <li class="list-group-item">Price: $13.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.stasherbag.com/products/reusable-silicone-quart-bag?variant=40446227710131" target="_blank">stasherbag.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://monos.com/cdn/shop/products/Product_CarryOn_BlueHaze_3_4_e7ec670e-e29b-43b9-a7ab-1776f11c59e5_900x.jpg?v=1692162706" 
+                            class="card-img-top object-fit-cover" alt="Carry-On Plus" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Monos</h5>
+                            <p class="card-text">Carry-On Plus</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Blue Haze</li>
+                            <li class="list-group-item">Price: $259</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://monos.com/collections/carry-on-luggage/products/carry-on-plus?variant=28760028971072" target="_blank">monos.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://monos.com/cdn/shop/products/6_pv2_900x.jpg?v=1678771772" 
+                            class="card-img-top object-fit-cover" alt="Compressible Packing Cubes" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Monos</h5>
+                            <p class="card-text">Compressible Packing Cubes</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Purple Icing</li>
+                            <li class="list-group-item">Price: $110</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://monos.com/products/packing-cubes?variant=43115896602823" target="_blank">monos.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="https://m.media-amazon.com/images/I/51kFgiXcF1L._AC_SL1000_.jpg" 
+                            class="card-img-top object-fit-contain" alt="Thule Backpack" style="height: 355px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Thule</h5>
+                            <p class="card-text">EnRoute Backpack</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Pelican/Vetiver</li>
+                            <li class="list-group-item">Price: $86.95</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.amazon.com/dp/B09NMNCK3Y/?coliid=I3VGZQH41G8ZTF&colid=38T4KN0DKQO46&ref_=list_c_wl_lv_ov_lig_dp_it&th=1&psc=1" target="_blank">amazon.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row pt-5">
+                <h3 class="col-sm-12 text-left">Eco-Friendly Buys</h3>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row py-5 border-bottom">
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://lastobject.us/cdn/shop/products/lastround-20-b2c-lastobject-blue-original-435758.jpg?v=1682511366" 
+                            class="card-img-top object-fit-cover" alt="LastRound Original" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">LastObject</h5>
+                            <p class="card-text">LastRound Original</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Blue</li>
+                            <li class="list-group-item">Price: $16</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://lastobject.us/products/lastround?variant=45152061325622" target="_blank">lastobject.us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://lastobject.us/cdn/shop/files/5_ColoroptionsP_800x.png?v=1694511505" 
+                            class="card-img-top object-fit-cover" alt="LastRound Pro" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">LastObject</h5>
+                            <p class="card-text">LastRound Pro</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Black</li>
+                            <li class="list-group-item">Price: $16</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://lastobject.us/products/lastround?variant=45152061653302" target="_blank">lastobject.us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://papershootcamera.com/cdn/shop/files/23-NOV_Paper-Shoot-Camera-Old-Classic-White-Mockup_900x.jpg?v=1699976340" 
+                            class="card-img-top object-fit-cover" alt="Paper Shoot Camera" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Paper Shoot</h5>
+                            <p class="card-text">Build Your Own Paper Camera</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Classic White</li>
+                            <li class="list-group-item">Style: 18 MP</li>
+                            <li class="list-group-item">Price: $139</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://papershootcamera.com/collections/cameras/products/18mp-paper-camera?variant=44401656234221" target="_blank">papershootcamera.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://papershootcamera.com/cdn/shop/files/23-NOV_Paper-Shoot-Camera-Zen-Hanada-Mockup_900x.jpg?v=1699977343" 
+                            class="card-img-top object-fit-cover" alt="Paper Shoot Case" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Paper Shoot</h5>
+                            <p class="card-text">Camera Case</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Zen Hanada</li>
+                            <li class="list-group-item">Style: 18 MP</li>
+                            <li class="list-group-item">Price: $25</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://papershootcamera.com/collections/cases/products/design-zen-hanada" target="_blank">papershootcamera.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://m.media-amazon.com/images/I/81MUfZcb1QS._AC_SL1500_.jpg" 
+                            class="card-img-top object-fit-cover" alt="Stasher Lavender Bag" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Stasher</h5>
+                            <p class="card-text">Stand-Up Mid Silicone Bag</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Lavender</li>
+                            <li class="list-group-item">Size: Stand-Up Mid</li>
+                            <li class="list-group-item">Price: $21.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.amazon.com/dp/B08ZG8ZZ5Q/?coliid=I3JL05HNQZ7O49&colid=BCJ3M59QWL0E&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" target="_blank">amazon.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://cdn.shopify.com/s/files/1/2237/5935/products/SU_Mid_Blue_OW_ToyCars_2800_476x.jpg?v=1658988868" 
+                            class="card-img-top object-fit-cover" alt="Stasher Blue Bag" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Stasher</h5>
+                            <p class="card-text">Stand-Up Mid Silicone Bag</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Blue</li>
+                            <li class="list-group-item">Size: Stand-Up Mid</li>
+                            <li class="list-group-item">Price: $23.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.stasherbag.com/products/reusable-silicone-stand-up-bag?variant=42456701436083" target="_blank">stasherbag.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://sirv.riflepaperco.com/rpc/catalog/product/j/s/jsm005_01-r.jpg?profile=riflepaperco&quality=100&scale.option=fill&scale.width=697&scale.height=582" 
+                            class="card-img-top object-fit-cover" alt="Rifle Paper Co. Spiral Notebook" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Rifle Paper Co.</h5>
+                            <p class="card-text">Spiral Notebook</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Style: Bon Voyage</li>
+                            <li class="list-group-item">Price: $14.40</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://riflepaperco.com/bon-voyage-spiral-notebook" target="_blank">riflepaperco.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://decomposition.com/wp-content/uploads/fixed-cosmic-coffee_011-2.jpg" 
+                            class="card-img-top object-fit-contain" alt="Decomposition Notebook" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Decomposition</h5>
+                            <p class="card-text">Spiral Notebook</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Style: Cosmic Coffee</li>
+                            <li class="list-group-item">Price: $8</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://decomposition.com/product/cosmic-coffee-spiral-notebook/" target="_blank">decomposition.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://cdn.shopify.com/s/files/1/2237/5935/products/Bowl-2_DeepOcean_OW_RicePilaf_Open_2800_476x.jpg?v=1676957888" 
+                            class="card-img-top object-fit-cover" alt="Stasher Blue Bowl" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Stasher</h5>
+                            <p class="card-text">Silicone Bowl</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Deep Ocean</li>
+                            <li class="list-group-item">Size: 2-Cup</li>
+                            <li class="list-group-item">Price: $15.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.stasherbag.com/products/reusable-silicone-2-cup-bowl?variant=42366983078067" target="_blank">stasherbag.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://cdn.shopify.com/s/files/1/2237/5935/products/Sandwich_Blue_OW_Legos_2800_476x.jpg?v=1683223819" 
+                            class="card-img-top object-fit-cover" alt="Stasher Blue Bag" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Stasher</h5>
+                            <p class="card-text">Sandwich Silicone Bag</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Blue</li>
+                            <li class="list-group-item">Size: Sandwich</li>
+                            <li class="list-group-item">Price: $12.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.stasherbag.com/products/reusable-silicone-sandwich-bag?variant=41180090532019" target="_blank">stasherbag.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://www.marleysmonsters.com/cdn/shop/products/silicone-straw-travel-tin-180548.jpg?v=1697850902&width=778" 
+                            class="card-img-top object-fit-cover" alt="Silicone Straw" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">GoSili</h5>
+                            <p class="card-text">Silicone Straw & Travel Tin</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Cobalt</li>
+                            <li class="list-group-item">Style: Standard</li>
+                            <li class="list-group-item">Price: $4</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.marleysmonsters.com/collections/on-the-go/products/silicone-straw-travel-tin?variant=27853900578900" target="_blank">marleysmonsters.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://cdn.shopify.com/s/files/1/2544/1940/products/Powerknit-USBA-USBC-FeatureTiles_1-2mHero_R2_720x.jpg?v=1666740694" 
+                            class="card-img-top object-fit-cover" alt="USB-C Charging Cable" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Nimble</h5>
+                            <p class="card-text">PowerKnit USB-A to USB-C</p>
+                            <p class="card-text">Promo Code: USBC15</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Length: 2 meters</li>
+                            <li class="list-group-item">Price: $14.97</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.gonimble.com/collections/usb-c-cables/products/powerknit-usb-c-to-usb-a?variant=39783212122146" target="_blank">gonimble.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5 border-bottom">
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://cdn.shopify.com/s/files/1/2237/5935/files/Bowl-4_Green_LS_MacNCheese_GIF_03_2800_e5e424ff-6d94-4541-b07f-1da273db616b_476x.jpg?v=1684367547" 
+                            class="card-img-top object-fit-cover" alt="Stasher Green Bowl" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Stasher</h5>
+                            <p class="card-text">Silicone Bowl</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Green</li>
+                            <li class="list-group-item">Size: 4-cup</li>
+                            <li class="list-group-item">Price: $23.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.stasherbag.com/products/reusable-silicone-4-cup-bowl?variant=41250242724019" target="_blank">stasherbag.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://cdn.shopify.com/s/files/1/2237/5935/products/Bowl-4_Clear_LS_LunchToGo_2800-min.jpg?v=1684367547" 
+                            class="card-img-top object-fit-cover" alt="Stasher Clear Bowl" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Stasher</h5>
+                            <p class="card-text">Silicone Bowl</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Clear</li>
+                            <li class="list-group-item">Size: 4-cup</li>
+                            <li class="list-group-item">Price: $23.99</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.stasherbag.com/products/reusable-silicone-4-cup-bowl?variant=41250240987315" target="_blank">stasherbag.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://www.marleysmonsters.com/cdn/shop/products/silicone-straw-travel-tin-191600.jpg?v=1697850901&width=1200" 
+                            class="card-img-top object-fit-cover" alt="Silicone Straw" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">GoSili</h5>
+                            <p class="card-text">Silicone Straw & Travel Tin</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Sea</li>
+                            <li class="list-group-item">Style: X-Long</li>
+                            <li class="list-group-item">Price: $4</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.marleysmonsters.com/collections/on-the-go/products/silicone-straw-travel-tin?variant=41132928401580" target="_blank">marleysmonsters.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card h-100">
+                        <img src="https://www.marleysmonsters.com/cdn/shop/products/silicone-straw-travel-tin-217720.jpg?v=1697850901&width=1100" 
+                            class="card-img-top object-fit-cover" alt="Silicone Straw" style="height: 545px;">
+                        <div class="card-body">
+                            <h5 class="card-title">GoSili</h5>
+                            <p class="card-text">Silicone Straw & Travel Tin</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Color: Lime</li>
+                            <li class="list-group-item">Style: X-Wide</li>
+                            <li class="list-group-item">Price: $4</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a class="btn btn-primary card-link" href="https://www.marleysmonsters.com/collections/on-the-go/products/silicone-straw-travel-tin?variant=41132928827564" target="_blank">marleysmonsters.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center text-light py-3" style="background-color: steelblue;">
+            Copyright &copy; 2023, Norma Argueta. All rights reserved.
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html>
